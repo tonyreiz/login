@@ -1,0 +1,150 @@
+/* RESET GERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #323232;
+    border: none;
+}
+
+body {
+    background: url('g_66_0_1_06062023152401.png') center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    
+
+}
+
+input:focus {
+    outline: none;
+}
+
+a {
+    font-size: .8rem;
+}
+
+a:hover {
+    color: #08558b;
+}
+
+/* CONTAINER LOGIN */
+
+#login-container {
+    background-color: #fff;
+    width: 25rem;
+    padding: 1.25rem 1.8rem;
+    border-radius: 10px;
+
+}
+
+label,
+input {
+
+    display: block;
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+    font-size: .8rem;
+
+}
+
+label{
+    font-weight: block;
+    font-size: 100%;
+    margin-top: 30px;
+}
+
+input {
+    border-bottom: 2px solid #323232;
+    padding: 2px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    background: transparent;
+}
+
+input:focus {
+    border-bottom: 3px solid #08558b;
+}
+
+#forgot-pass{
+    display: block;
+    text-align: right;
+    
+}
+
+input[type="submit"] {
+    background-color: #08558b;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin: 1.8rem auto 0;
+    font-weight: bold;
+    cursor: pointer;
+    width: 40%;
+
+}
+
+input[type="submit"]:hover {
+    background-color: #000000;
+    width: 100%;
+    transition: width 0.5S;
+}
+
+/* SOCIAL CONTAINER */
+#social-container, #social-container p{
+ 
+    margin: 1.25rem;
+    text-align: center;
+    margin-top: 25px;
+    
+}
+ #social-container i{
+   
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    border-radius: 50%;
+    color: #eee5e5;
+    font-size: 1.5rem;
+    text-align: center;
+   
+    
+    
+}
+
+.fa-facebook-f{
+   background-color: #08558b ;
+}
+
+.fa-linkedin{
+    background-color: #096b9c;
+}
+
+.fa-instagram{
+    background-color:rgb(215, 11, 208) ;
+}
+
+.fa-whatsapp{
+    background: linear-gradient(to bottom,  #5ff475, #38c33a);
+}
+
+h1{
+    text-align: center;
+}
+
+#register-container{
+    text-align: center;
+    margin-top: 35px;
+}
+
+#register-container{
+    text-align: center;
+    padding: 20px;
+}
